@@ -42,7 +42,7 @@ class TextTyper:
             time.sleep(0.1)  
 
 def main():
-    typer = TextTyper("tox.txt")
+    typer = TextTyper("tox.txt") # Я ПРО ЭТО ГОВОРИЛ БРАТ В РЕАД.МД ПРОСТО ПОМЕНЯЙ НАЗВАНИЕ TXT ФАЙЛА ФР ФФРФ РФ
     
     def on_press(key):
         if key == Key.f3:
