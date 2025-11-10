@@ -59,6 +59,7 @@ class TextTyper:
             self.keyboard.press(Key.enter)
             time.sleep(0.05)
             self.keyboard.release(Key.enter)
+            
             time.sleep(self.delay)
 
 def main():
@@ -101,4 +102,4 @@ def main():
             print("\nСтоп брат")
 
 if __name__ == "__main__":
-    main()
+    main() 
