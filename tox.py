@@ -27,7 +27,7 @@ class TextTyper:
     def toggle_typing(self):
         self.is_typing = not self.is_typing
         if self.is_typing:
-            print("Начинаем брат макан...")
+            print("Начинаем брат...")
             threading.Thread(target=self.type_lines, daemon=True).start()
         else:
             print("Стоп")
@@ -63,7 +63,6 @@ class TextTyper:
             time.sleep(self.delay)
 
 def main():
-    print("Заходим на сервак делевопера братья!! - https://discord.gg/gbyfwpyCmQ")
     print("Ес чо используем библиотеку pynput для эмуляции ввода, это не просто использование буфера обмена для вставки")
     print("Выбери режим брат, медленный чтобы кд не мешало в дс и можно было афк сидеть в войсе:")
     print("1 - дефолт тайпинг (быстро для ТГ и тд)")
